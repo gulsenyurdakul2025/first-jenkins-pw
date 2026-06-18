@@ -7,7 +7,7 @@ test("", async ({ page }) => {
   //wait for 3 seconds
   await page.waitForTimeout(3000);
 
-  let searchBox = page.locator("//textarea[@class='gLFyf]]]]']");
+  let searchBox = page.locator("//textarea[@class='gLFyf']");
   //let searchBox = page.locator("textarea[jsname='yZiJbe']");
 
   
